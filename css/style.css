@@ -3,26 +3,35 @@ style.css
 		nav {background-color: #D2EE9E;
 			font-family: Arial, sans-serif;
 }
-	a{
-		background-color: #110101;
+	a {
+		background-color: #D2EE9E;
 		color: black;
 		text-decoration: none;
 		font-family: Arial, sans-serif;
 		display: block;
 		float: left;
-		padding: 20px;
+		padding: 10px;
 	}
 	
+
+		#headline { font-weight: bold;
+					font-family: Arial, sans-serif;
+					text-align: center;
+					font-size: 50px;
+
+		}
+
+
 	
 
 		#content {
 			float: left;
-			width: 560px;
+			width: 920px;
 			padding: 20px 0;
-			margin: 0 0 0 30px;
+			margin: 0 0 0 20px;
 		}
 #wrapper { 
-		background: #7A9F35 repeat-y 100% 0;
+		background: #7A9F35  0 0 0;
 		}
 		
 #content h2 { 
@@ -47,12 +56,13 @@ style.css
 
 		a:hover{
 		background-color: #7A9F35;
+		float: left;
 	}
 
 		.column {
 			float: left;
-			width: 260px;
-			height: 300px;
+			width: 200px;
+			height: 100px;
 			padding: 20px;
 			margin: 0;
 		}
