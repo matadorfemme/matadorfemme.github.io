@@ -21,21 +21,23 @@ style.css
 
 		}
 
-
+img {	display: block;
+		margin: 0 auto; }
 	
 
 		#content {
 			float: left;
 			width: 920px;
 			padding: 20px 0;
-			margin: 0 0 0 20px;
+			margin: 0 0 0 0px;
 		}
+}
 #wrapper { 
 		background: #7A9F35  0 0 0;
 		}
 		
 #content h2 { 
-		margin:0;
+		margin: 0;
 	}
 
 		
